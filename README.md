@@ -4,20 +4,37 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/ZCShou/GoGoGo?logo=github)](https://github.com/ZCShou/GoGoGo/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ZCShou/GoGoGo?logo=github)](https://github.com/ZCShou/GoGoGo/network)
-[![license](https://img.shields.io/github/license/ZCShou/GoGoGo)](https://github.com/ZCShou/GoGoGo/blob/master/LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/ZCShou/GoGoGo?label=Release)](https://github.com/ZCShou/GoGoGo/releases)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-</div>
-<div align="center">
+[![主仓库](https://img.shields.io/badge/主仓库-ZCShou%2FGoGoGo-2ea44f?style=for-the-badge&logo=github)](https://github.com/ZCShou/GoGoGo)
+[![本分支](https://img.shields.io/badge/本分支-qwe123535%2FGoGoGo-blue?style=for-the-badge&logo=github)](https://github.com/qwe123535/GoGoGo)
+[![版本号](https://img.shields.io/github/v/release/qwe123535/GoGoGo?style=for-the-badge&logo=git&label=版本)](https://github.com/qwe123535/GoGoGo/releases)
+[![Stars 人气](https://img.shields.io/github/stars/qwe123535/GoGoGo?style=for-the-badge&logo=github&color=ff9f00)](https://github.com/ZCShou/GoGoGo/stargazers)
+[![协议](https://img.shields.io/github/license/qwe123535/GoGoGo?style=for-the-badge&logo=gnu&label=协议)](https://github.com/ZCShou/GoGoGo/blob/master/LICENSE)
+[![文档规范](https://img.shields.io/badge/文档-standard--readme-9cf?style=for-the-badge&logo=markdown)](https://github.com/RichardLitt/standard-readme)
 
-[![Build Check](https://github.com/ZCShou/GoGoGo/actions/workflows/build-check.yml/badge.svg)](https://github.com/ZCShou/GoGoGo/actions/workflows/build-check.yml)
-[![CodeQL](https://github.com/ZCShou/GoGoGo/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ZCShou/GoGoGo/actions/workflows/codeql-analysis.yml)
 </div>
 
 <div align="center">
-影梭 - 用于 Android 8.0+ 的无需 ROOT 权限的虚拟定位 APP
+
+[![构建状态](https://img.shields.io/github/actions/workflow/status/qwe123535/GoGoGo/build-check.yml?style=for-the-badge&logo=githubactions&label=构建)](https://github.com/qwe123535/GoGoGo/actions)
+[![代码质量](https://img.shields.io/github/actions/workflow/status/qwe123535/GoGoGo/codeql-analysis.yml?style=for-the-badge&logo=codeql&label=代码扫描)](https://github.com/qwe123535/GoGoGo/actions)
+
+</div>
+
+<div align="center">
+<b>影梭独立实验分支</b> | 已完全移除百度地图 | 仅高德地图引擎 | 不定期维护 | Android 8.0+ 免 ROOT 虚拟定位
+</div>
+
+---
+
+### 🔗 分支生态与相关链接
+<div align="center">
+
+[![官方文档](https://img.shields.io/badge/官方文档-GoGoGo-007ACC?style=for-the-badge&logo=gitbook)](https://github.com/ZCShou/GoGoGo)
+[![社区 Wiki](https://img.shields.io/badge/社区文档-Wiki-2196F3?style=for-the-badge&logo=docs)](https://github.com/qwe123535/GoGoGo/wiki)
+[![问题反馈](https://img.shields.io/badge/问题反馈-Issues-FF4444?style=for-the-badge&logo=github)](https://github.com/qwe123535/GoGoGo/issues)
+[![提交PR](https://img.shields.io/badge/提交贡献-PR-00C853?style=for-the-badge&logo=github)](https://github.com/qwe123535/GoGoGo/pulls)
+[![GPLv3 协议](https://img.shields.io/badge/开源协议-GPLv3-FF5722?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/gpl-3.0.html)
+
 </div>
 
 ## 简介
@@ -26,25 +43,28 @@
 1. 源码仓库：[Github](https://github.com/ZCShou/GoGoGo)（推荐）、[Gitee](https://gitee.com/itexp/gogogo)（镜像）
 2. 下载地址：[Github](https://github.com/ZCShou/GoGoGo/releases)（推荐）、[Gitee](https://gitee.com/itexp/gogogo/releases)（镜像）
 
-## 警告一
-&emsp;&emsp;**最近，有网友直接白嫖影梭后改名为标枪定位，然后添加广告（除了加广告，功能没有任何改变），但是，没有按照 GPLv3 协议的要求进行开源（我已经联系过该网友进了提醒，但并没有收到回复），在此提醒：**
-1. **开源 ≠ 白嫖，请遵循开源协议**
-2. **GPL 的法律效力在国内相关诉讼案例很多，请自行搜索，权衡利弊。影梭保留追究相关侵权人员法律责任的所有权利！**
-3. **开源不易，且行且珍惜**
-
-## 警告二
-&emsp;&emsp;**最近，有很多人将影梭用在校园运动类 APP（包括但不限于闪动校园、TakeTwo、运动世界校园等）中作弊，开发者也收到了很多人提问为何影梭定位并不起作用或者寻求对影梭的改进，在此提醒：**
-1. **影梭不支持任何校园运动类 APP 的作弊行为**
-2. **影梭开发者也不赞同采用任何形式在校园运动中作弊**
-
-## 背景
-&emsp;&emsp;之前在玩一款 VR 游戏：一起来捉妖。为了省事，就想有没有可以更改位置的 APP。经过一番摸索发现确实有不少可以修改位置的 APP。但是，绝大多数这种 APP 都是收费的，而且贼贵！
-
-&emsp;&emsp;我比较感兴趣的是这样的技术是如何实现的，因此，决定研究研究自己写一个！现在游戏已经弃坑了，但是技术不能丢。因此，将研究结果开源出来方便大家一起学习！但是请注意（重要的事情说三遍！否则后果自负）：
-
-1. 该 APP 仅仅是为了学习 Android + 百度地图的实现方法，请勿用于游戏作弊！
-2. 该 APP 仅仅是为了学习 Android + 百度地图的实现方法，请勿用于游戏作弊！
-3. 该 APP 仅仅是为了学习 Android + 百度地图的实现方法，请勿用于游戏作弊！
+警告一
+ 
+本分支为独立实验性版本，已完全移除百度地图相关所有代码、依赖及接口调用，仅保留高德地图作为唯一定位引擎，任何基于其他地图SDK的功能均已彻底剔除，不再提供相关兼容与支持。
+ 
+警告二
+ 
+本项目仅进行不定期维护，不承诺定位精度、运行稳定性、机型兼容性及持续更新，不提供任何形式的技术保障与使用承诺，使用风险由使用者自行承担。
+ 
+警告三
+ 
+本项目全部源码仅限用于 Android 开发技术学习与高德地图定位接口研究，严禁用于任何形式的作弊、违规定位修改、绕过平台规则及其他违反平台用户协议的行为。
+ 
+警告四
+ 
+本项目未针对任何第三方应用（包括但不限于运动打卡类、游戏类、社交类应用）进行适配，因使用本项目导致的一切后果，均与本项目开发者无关。
+ 
+警告五
+ 
+本项目基于 GPLv3 开源协议 开源，所有二次修改、分发、衍生版本必须严格遵守协议条款，完整开放修改后源码并保留原版权声明，违者将视为违反开源协议。
+ 
+GPLv3 协议原文地址：
+https://www.gnu.org/licenses/gpl-3.0.html
 
 ## 功能
 1. 定位修改
@@ -58,7 +78,7 @@
 ![search_history.jpg](./docs/images/search_history.jpg)
 ![map.jpg](./docs/images/map.jpg)
 
-## 用法
+# 用法
 1. 下载 APK 直接安装
 2. 启动影梭，赋予相关权限
 3. 单击地图位置，然后点击启动按钮
@@ -77,25 +97,29 @@
 &emsp;&emsp;还有些 CSDN 上的文章，目前不记得地址了，如果您发现其中有直接引用或借鉴您的地方，请与我联系，我会再第一时间进行处理，谢谢！
 
 ## FAQ
-Q：为何不支持 Android 8.0 以下版本？
+**Q：本分支支持最低 Android 版本是多少？**
+A：本分支已完成底层兼容优化，最低支持 **Android 5.0** 及以上系统设备。
 
-A：因为手里没有机器无法进行适配。。。
+**Q：项目是否会持续维护与更新？**
+A：会持续进行 **BUG 修复、功能优化、稳定性提升** 等维护工作，保证项目正常稳定运行。
 
-Q：为何定位不是很稳定，偶尔会飘回真实位置？
+**Q：本分支与原仓库有哪些区别？**
+A：本分支**已完全移除百度地图**相关代码与依赖，仅保留高德地图引擎，并对整体稳定性做了增强。
 
-A：这是是由于实现原理导致的，Android 调试 API 固有的问题。确切的说，应该是由于手机本身还开启了其他定位方式（例如，基站定位、wifi定位等）导致的
+**Q：使用过程中出现闪退、异常如何处理？**
+A：可尝试重启应用、重新授权相关权限；如问题复现，欢迎提交 Issue 反馈，我会尽快修复。
 
-Q：是否支持鸿蒙系统？
+**Q：是否支持鸿蒙系统？**
+A：经测试，本分支不可在鸿蒙系统上正常安装与运行。
 
-A：经过测试，影梭可以在鸿蒙系统上正常运行。
+**Q：定位功能是否支持所有应用？**
+A：本项目仅用于技术学习与研究，因各应用风控策略不同，无法保证在所有应用中均生效。
 
-Q：为何在微信等腾讯系应用上定位不起作用？
+**Q：编译时出现报错该如何解决？**
+A：请检查 Android Studio、Gradle、Java 环境是否配置正确，完整同步依赖后重试。
 
-A：建议去问一下腾讯。
-
-Q：编译时 java 报错？
-
-A：Gradle 使用的 java 版本与 Android Studio 使用的不一致。Gradle 默认会在环境变量中搜索 JAVA_HOME 来确定 Java 位置。
+**Q：是否可以二次开发与分发？**
+A：本项目基于 GPL-3.0 协议开源，允许二次开发与分发，但需遵守协议并保留相关版权声明。
 
 ## 如何贡献
 1. FORK -> PR
